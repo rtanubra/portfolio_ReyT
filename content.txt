@@ -1,0 +1,67 @@
+HEADLINE
+    Hi I'm Rey Tanubrata. Professionally I am a burgeoning Fullstack Developer,
+    on my freetime I use Python to overengineer and automate simple tasks.
+
+BIO
+    I am a Web Developer Student at Bloc Thinkful. My Goal is to automate and rid the world of 'tasks' to free us up for big projects!
+    I love working on two main types of projects. Simplifying complex inputs (like deciding if the Toronto Raptors should trade Kawhi Leonard for Kyle Kuzma now!) 
+    and atomating repetitive tasks (like a budgeting app to send email remainders when to pay recurring bills)
+
+PROJECT 1-
+    
+    1.1 Title : NBA Quiz application
+
+    1.2 Description:
+        Client side web application to prep you for any upcoming NBA trivia night. 
+        Study this and you will WIN any NBA historical trivia night.
+
+    1.3 List of Technologies:
+        1.3.1 Javascript: vanilla and JQuery
+        1.3.2 HTML
+        1.3.3 CSS
+
+    1.4 Link to Live app:
+        https://rtanubra.github.io/quizapp/ 
+
+    1.5 Link to repo:
+        https://github.com/rtanubra/quizapp
+
+PROJECT 2-
+    
+    2.1 Title : Python Secret Santa Application
+
+    2.2 Description:
+        Put your names and emails in the imaginary hat and let Python sort who you are gifting this Christmas.
+        This way you know no cheating in selecting your secret santa.
+
+    2.3 List of Technologies:
+        2.3.1 Python3
+
+    2.4 Link to Live app:
+        Currently does not have a web-front end. back end only project 
+
+    2.5 Link to repo:
+        https://github.com/rtanubra/Secret_santa_email 
+
+PROJECT 3-
+    
+    2.1 Title : Family budgeting App.
+
+    2.2 Description:
+       Marriages break up more over money than anything else. 
+       Let this family budgeting application be your technological couples therapist. 
+       Let's break down all our expenses and go from budgetarily challenged to personal finance hero.
+
+    3.3 List of Technologies:
+        2.3.1 Python3
+        3.3.2 Django
+        3.3.3 SQL lite
+        3.3.4 HTML
+        3.3.5 CSS - bootsrap
+
+    3.4 Link to Live app:
+        Not currently published. Clone repository into your machine to start tracking! 
+        A web application will go live before the end of this year.
+
+    3.5 Link to repo:
+        https://github.com/rtanubra/fam_finance2.0
