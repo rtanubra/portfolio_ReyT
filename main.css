@@ -11,7 +11,10 @@ header{
     padding-left:20px;
     padding-top:7px;
     padding-bottom:7px;
-    height:80px;
+    height:100px;
+}
+h1{
+    text-align: center;
 }
 .head{
     display:inline-block;
@@ -37,6 +40,7 @@ header{
     padding:0px;
     margin:0px;
 }
+
 .hero{
     text-align: center;
     display:block;
@@ -86,13 +90,6 @@ main{
     padding:10px;
     overflow: auto;
 }
-footer{
-    height:200px;
-    width:100%;
-    background-color:black;
-    margin:0;
-    padding: 1% 0;
-}
 .about-me{
     margin-left:auto;
     margin-right:auto;
@@ -104,3 +101,24 @@ footer{
     padding:5%;
     overflow: auto;
 }
+
+footer{
+    height:200px;
+    width:100%;
+    background-color:grey;
+    margin:0;
+    padding: 1% 0;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+}
+.email{
+    height:64px;
+    width:64px;
+}
+.linkedin{
+    height:64px;
+    width:64px;
+}
+
