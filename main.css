@@ -11,12 +11,14 @@ header{
     padding-left:20px;
     padding-top:7px;
     padding-bottom:7px;
+    height:80px;
 }
 .head{
     display:inline-block;
     height:40px;
     width:40px;
     padding:0px;
+    margin-top:10px;
 }
 .logo{
     background-color:black;
@@ -28,6 +30,7 @@ header{
     margin:0px;
     padding:0px;
     text-align: center;
+    margin-top:10px;
 }
 #navigation-burger{
     font-size: 40px;
@@ -39,8 +42,8 @@ header{
     display:block;
     width:70%;
     height:200px;
-    margin-top:40px;
-    margin-bottom:40px;
+    margin-top:100px;
+    margin-bottom:50px;
     padding-top:20px;
     padding-bottom:20px;
     border: 2px solid red;
@@ -57,8 +60,7 @@ h1{
     padding:0px;
 }
 main{
-    position:absolute;
-    top:60px;
+    padding-top:60px;
     width:100%;
 }
 .bolder-h1{
@@ -70,17 +72,35 @@ main{
     margin-right:auto;
     width:70%;
     height:1100px;
-
     display:flex;
     flex-direction:column;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom:50px;
 }
 .project{
     height:350px;
-    width:90%;
+    width:100%;
     background-color:white;
     border:1px red solid;
     padding:10px;
+    overflow: auto;
+}
+footer{
+    height:200px;
+    width:100%;
+    background-color:black;
+    margin:0;
+    padding: 1% 0;
+}
+.about-me{
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    margin-bottom:50px;
+    background-color:grey;
+    height:300px;
+    color:black;
+    padding:5%;
     overflow: auto;
 }
