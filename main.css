@@ -47,6 +47,7 @@ header{
     background-color: grey;
     margin-left:auto;
     margin-right:auto;
+    overflow: auto;
 }
 h1{
     display:block;
@@ -69,7 +70,7 @@ main{
     margin-right:auto;
     width:70%;
     height:1100px;
-    background-color:black;
+
     display:flex;
     flex-direction:column;
     justify-content: space-evenly;
@@ -81,4 +82,5 @@ main{
     background-color:white;
     border:1px red solid;
     padding:10px;
+    overflow: auto;
 }
