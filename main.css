@@ -68,7 +68,7 @@ main{
     margin-left:auto;
     margin-right:auto;
     width:70%;
-    height:1000px;
+    height:1100px;
     background-color:black;
     display:flex;
     flex-direction:column;
@@ -76,8 +76,9 @@ main{
     align-items: center;
 }
 .project{
-    height:300px;
+    height:350px;
     width:90%;
     background-color:white;
     border:1px red solid;
+    padding:10px;
 }
