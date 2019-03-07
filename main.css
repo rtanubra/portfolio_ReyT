@@ -2,9 +2,9 @@
     box-sizing:border-box;
 }
 header{
+    background:linear-gradient(to top,white,#0000FF);
     position:fixed;
-    background-color: grey;
-    color:white;
+    color:grey;
     display:block;
     width:100%;
     padding-right: 20px;
@@ -58,8 +58,6 @@ h1{
     margin-bottom:50px;
     padding-top:20px;
     padding-bottom:20px;
-    border: 2px solid red;
-    background-color: grey;
     margin-left:auto;
     margin-right:auto;
     overflow: auto;
@@ -74,12 +72,14 @@ h1{
 main{
     padding-top:60px;
     width:100%;
+
 }
 .bolder-h1{
     font-style: oblique;
 }
 
 .portfolio{
+    
     margin-left:auto;
     margin-right:auto;
     width:70%;
@@ -91,9 +91,8 @@ main{
     margin-bottom:50px;
 }
 .project{
-    height:350px;
+    height:300px;
     width:100%;
-    background-color:white;
     border:1px red solid;
     padding:10px;
     overflow: auto;
@@ -103,7 +102,7 @@ main{
     margin-right:auto;
     width:70%;
     margin-bottom:50px;
-    background-color:grey;
+    background-color:white;
     height:300px;
     color:black;
     padding:5%;
@@ -111,6 +110,7 @@ main{
 }
 
 footer{
+    background:linear-gradient(to bottom,white,#0000FF);
     height:200px;
     width:100%;
     background-color:grey;
