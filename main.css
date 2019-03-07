@@ -4,7 +4,7 @@
 header{
     background:linear-gradient(to top,white,#0000FF);
     position:fixed;
-    color:grey;
+    color:rgb(100,100,100);
     display:block;
     width:100%;
     padding-right: 20px;
@@ -79,10 +79,10 @@ main{
 }
 
 .portfolio{
-    
+    background: linear-gradient(to bottom,white,rgba(0,0,200,0.3),white);
     margin-left:auto;
     margin-right:auto;
-    width:70%;
+    width:100%;
     height:1100px;
     display:flex;
     flex-direction:column;
@@ -92,7 +92,7 @@ main{
 }
 .project{
     height:300px;
-    width:100%;
+    width:300px;
     border:1px red solid;
     padding:10px;
     overflow: auto;
