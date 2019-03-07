@@ -13,6 +13,14 @@ header{
     padding-bottom:7px;
     height:100px;
 }
+h1,h2,h3,h4,a{
+    font-family: 'Open Sans', sans-serif;
+
+}
+p, li{
+    font-family: 'Gentium Basic', serif;
+
+}
 h1{
     text-align: center;
 }
