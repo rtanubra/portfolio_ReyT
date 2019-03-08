@@ -14,6 +14,8 @@
         <link href="https://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="main.css">
+        <!--JQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <header role=banner >
@@ -21,7 +23,14 @@
                 <p>logo</p>
             </div>
             <div class="head topnav">
-                <i id="navigation-burger" class="fa fa-bars"></i>    
+                <i id="navigation-burger" class="fa fa-bars"></i>
+                <div class= "dropdown-content" id= "js-my-dropdown">
+                    <ul>
+                        <li class="navlink" ><a class="nav-anchor" href="">Home</a></li>
+                        <li class="navlink" ><a class="nav-anchor" href="">Portfolio</a></li>
+                        <li class="navlink" ><a class="nav-anchor" href="">AboutMe</a></li>
+                    </ul>
+                </div>    
             </div>
             <h1>Code, Create, Repeat</h1>
         </header>
@@ -99,5 +108,6 @@
             <a href="mailto:rdtanubrata@gmail.com?subject=Contact%20Request" ><img class="email" src="images/contact-icons/email.png" alt="email icon email link" ></a>
             <a href="https://www.linkedin.com/in/rey-tanubrata-25705167/?originalSubdomain=ca" target="_blank"> <img class="linkedin" src="images/contact-icons/linkedin.png" alt="linked in logo, connect with Rey Tanubrata on Linked in"> </a>
         </footer>
+        <script src="main.js" ></script>
     </body>
 </html>
