@@ -51,22 +51,34 @@ h1{
 }
 .dropdown-content{
     display:none;
-    position:relative;
-    right:100px;
+    position:absolute;
+    top:38px;
+    right:0px;
+    
 }
 .navlink {
+    background-color: rgba(0,0,250,0.9);
     text-align: center;
     list-style-type: none;
-    font-size:20px;
+    font-size:23px;
     width:110px;
-    height:30px;   
+    height:40px;   
     padding: 5px;
-    border:1px solid black
+    border:1px solid black;
+    color:white;
+}
+.js-hide-me{
+    display:none;
+}
+.navlink:hover{
+    background-color: white;
+    color:black;
 }
 .nav-anchor{
     text-decoration: none;
     color:inherit;
     font-family: inherit;
+    font-size: inherit
 }
 .hero{
     text-align: center;
