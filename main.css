@@ -46,6 +46,7 @@ h1{
     margin-top:10px;
 }
 .navlinks{
+    margin-right:10px;
     list-style-type: none;
     position:absolute;
     right:0px;
