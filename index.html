@@ -23,26 +23,22 @@
                 <p>logo</p>
             </div>
             <div class="head topnav">
-                <i id="navigation-burger" class="fa fa-bars"></i>
-                <div class= "dropdown-content" id= "js-my-dropdown">
-                    <ul>
-                        <li class="navlink" ><a class="nav-anchor" href="">Home</a></li>
-                        <li class="navlink" ><a class="nav-anchor" href="">Portfolio</a></li>
-                        <li class="navlink" ><a class="nav-anchor" href="">AboutMe</a></li>
-                    </ul>
-                </div>    
+                <ul role="navigation" class="navlinks">
+                    <li class="navlink"><a class="navanchor anchor js-portfolio-nav" href="#target-portfolio">Portfolio</a></li>
+                    <li class="navlink" ><a class="navanchor anchor js-about-nav" href="#taget-about-me"  >About</a></li>
+                </ul>
             </div>
             <h1>Code, Create, Repeat</h1>
         </header>
         <main role=main>
-            <section class="hero">
-                <h2>Rey Tanubrata</h2>
-                <p>I am a burgeoning <span class="bolder-h1" >Fullstack Developer</span>. On my free time, I use <span class="bolder-h1" >Python</span> to overengineer and <span class="bolder-h1" >
+            <section class="hero" id="target-portfolio">
+                <h2 >Rey Tanubrata</h2>
+                <p>I am a burgeoning <span class="bolder-hero" >Fullstack Developer</span>. On my free time, I use <span class="bolder-hero" >Python</span> to overengineer and <span class="bolder-hero" >
                     automate boring tasks.</span>
-                </p>   
+                </p> 
             </section>
             
-            <section class="portfolio">
+            <section class="portfolio" id="target-portfolio">
                 <h2>Portfolio:</h2>
                 <div class="project project1 project1-description">
                     <h3>NBA Quiz Application</h3>
@@ -87,12 +83,11 @@
                         <li>HTML</li>
                         <li>CSS, Bootstrap</li>
                     </ul>
-                    <p>Work flow: <span><a target="_blank" href="https://gist.github.com/rtanubra/68566b3e733185df2042c76c76dd54dd">Gist-family budget</a></span> </p>
+                    <p id="taget-about-me" >Work flow: <span><a target="_blank" href="https://gist.github.com/rtanubra/68566b3e733185df2042c76c76dd54dd">Gist-family budget</a></span> </p>
                     <p>Repo: <span><a target="_blank" href="https://github.com/rtanubra/fam_finance2.0">Github-family budget</a></span></p>
                 </div>
             </section>
-
-            <section class="about-me">
+            <section class="about-me" id="about-me">
                 <h2>About Me</h2>
                 <p>
                     I am a Web Developer Student at Bloc Thinkful. 
