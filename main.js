@@ -11,10 +11,16 @@ function handlePortfolioAnchor(){
 function handleAboutAnchor(){
     //handling About me Anchor
     console.log("Ready to handle about anchor")
-    $(".js-about-nav").click(event=>{
+    $(".js-about-nav").click(event=>{  
         event.preventDefault()
+        let viewport_width= $( window ).width();
         console.log("navigate to about")
-        window.scrollTo(0,1500)
+        if (viewport_width >=650){
+            window.scrollTo(0,1600)
+        }
+        else{
+            window.scrollTo(0,2600)
+        }
     })
 }
 //called at the document ready to listen to events

@@ -17,6 +17,9 @@ h1,h2,h3,h4,a{
     font-family: 'Open Sans', sans-serif;
 
 }
+.h3-outer{
+    display:none;
+}
 p, li{
     font-family: 'Gentium Basic', serif;
 
@@ -157,5 +160,22 @@ footer{
 .linkedin{
     height:64px;
     width:64px;
+}
+
+@media screen and (min-width:650px){
+    .portfolio{
+        height:1200px;
+    }
+    .project-outer{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    height:350px;
+    width:640px;
+    }
+
 }
 
