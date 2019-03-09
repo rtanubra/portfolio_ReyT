@@ -16,7 +16,7 @@ function handleAboutAnchor(){
         let viewport_width= $( window ).width();
         console.log("navigate to about")
         if (viewport_width <=640){
-            window.scrollTo(0,2800)
+            window.scrollTo(0,2600)
         }
         else{
             window.scrollTo(0,1600)
