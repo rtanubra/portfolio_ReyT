@@ -46,12 +46,13 @@ h1{
     list-style-type: none;
     position:absolute;
     right:0px;
-    top:-10px;
+    top:-3px;
 }
 .navlink{
+    
     display:inline-block;
     font-size:25px;
-    color:black;
+    color:white;
     margin:3px;
 }
 .navanchor{
