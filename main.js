@@ -5,7 +5,13 @@ function handlePortfolioAnchor(){
         //done to stop refresh
         event.preventDefault()
         console.log("navigte to portfolio")
-        window.scrollTo(0,350)
+        let viewport_width= $( window ).width();
+        if (viewport_width <=640){
+            window.scrollTo(0,360)
+        }
+        else{
+            window.scrollTo(0,320)
+        }
     })
 }
 function handleAboutAnchor(){
