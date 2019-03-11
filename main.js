@@ -5,7 +5,7 @@ function handlePortfolioAnchor(){
         //done to stop refresh
         event.preventDefault()
         console.log("navigte to portfolio")
-        window.scrollTo(0,360)
+        window.scrollTo(0,350)
     })
 }
 function handleAboutAnchor(){
