@@ -5,7 +5,7 @@ function handlePortfolioAnchor(){
         //done to stop refresh
         event.preventDefault()
         console.log("navigte to portfolio")
-        window.scrollTo(0,350)
+        window.scrollTo(0,360)
     })
 }
 function handleAboutAnchor(){
@@ -16,7 +16,7 @@ function handleAboutAnchor(){
         let viewport_width= $( window ).width();
         console.log("navigate to about")
         if (viewport_width <=640){
-            window.scrollTo(0,2600)
+            window.scrollTo(0,2900)
         }
         else{
             window.scrollTo(0,1600)
