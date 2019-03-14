@@ -33,8 +33,12 @@ p, li{
     margin-top:10px;
 }
 .logo{
-    background-color:black;
-    color:white;
+    top:-30px;
+    left:-30px;
+    width:160px;
+    height:100px;
+    position:fixed;
+    
 }
 .topnav{
     float:right;
@@ -83,11 +87,13 @@ p, li{
     border-radius:25px;
 }
 h1{
+    padding-top:40px;
+    margin-top:50px;
     text-align: center;
     display:block;
     margin-left:auto;
     margin-right:auto;
-    margin-top:30px;
+
     padding:0px;
 }
 main{
