@@ -29,6 +29,7 @@ function handleAboutAnchor(){
         }
     })
 }
+
 //called at the document ready to listen to events
 function callback(){
     handlePortfolioAnchor()
